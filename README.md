@@ -1,8 +1,8 @@
 # AWS Glue Spark UI Log via. History Server
 
-AWS Glue provides a serverless Spark execution enviorment. The Spark UI via. a Spark history server can help with performance tuning jobs. 
+AWS Glue provides a serverless Spark execution environment. The Spark UI via. a Spark history server can help with performance tuning jobs. 
 
-Glue does not provide a Spark history server. However Glue jobs can produce Spark UI logs in an S3 bucket. You can subsequently host your own Spark history server that visualizes the Spark UI logs directly from the S3 bucket Glue logs in.
+Glue does not provide a Spark history server. However, Glue jobs can produce Spark UI logs in an S3 bucket. You can subsequently host your own Spark history server that visualizes the Spark UI logs directly from the S3 bucket Glue logs in.
 
 The instructions below are for Windows. It uses a docker container to run the Spark history server and directly consumes Spark UI logs from an S3 bucket in real time.
 
@@ -22,7 +22,7 @@ The instructions below are for Windows. It uses a docker container to run the Sp
 
 ``` docker build -t glue/sparkui:latest . ```
 
-5. Set the following enviorment variables from the command line
+5. Set the following environment variables from the command line
 
 * Replace the *<S3_BUCKET_PATH_TO_SPARK_UI_LOGS>* with the name of the S3 bucket and path to the folder that contains the Spark UI logs from the Glue job(s)
 
