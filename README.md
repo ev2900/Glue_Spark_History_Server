@@ -1,6 +1,6 @@
 # AWS Glue Spark UI Log via. History Server
 
-<img width="85" alt="map-user" src="https://img.shields.io/badge/views-233-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-056-green">
+<img width="85" alt="map-user" src="https://img.shields.io/badge/views-248-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-056-green">
 
 AWS Glue provides a serverless Spark execution environment. The Spark UI via. a Spark history server can help with performance tuning jobs.
 
